@@ -1,0 +1,752 @@
+<!--
+ ┌──────────────────────────────────────────────────────────────────────┐
+ │ @name         Online CV                                              │
+ │ @author       Vartan Catanasian                                      │
+ │ @version      1.0                                                    │
+ │ @created      2024-03-13                                             │
+ │ @modified                                                            │
+ └──────────────────────────────────────────────────────────────────────┘
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume CV Vartan Catanasian</title>
+    <script
+      src="https://kit.fontawesome.com/cb81440751.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="assets/stylesheets/style.css"
+      type="text/css"
+    />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/pictures/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/pictures/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/pictures/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/pictures/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/pictures/favicon/android-chrome-512x512.png"
+    />
+  </head>
+
+  <body>
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav_logo">Vartan CATANASIAN</a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active-link">
+                <i class="fa-solid fa-house nav_icon"></i>Home
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#profile" class="nav_link">
+                <i class="fa-solid fa-user nav_icon"></i>Profile
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">
+                <i class="fa-solid fa-computer nav_icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#languages" class="nav_link">
+                <i class="fa-solid fa-comments nav_icon"></i>Languages
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#experience" class="nav_link">
+                <i class="fa-solid fa-briefcase nav_icon"></i>Experiences
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#certificates" class="nav_link">
+                <i class="fa-solid fa-graduation-cap nav_icon"></i>Certificates
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#education" class="nav_link">
+                <i class="fa-solid fa-book-bookmark nav_icon"></i>Education
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#interests" class="nav_link">
+                <i class="fa-solid fa-icons nav_icon"></i>Interests
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- Resume CV -->
+      <div class="resume" id="area-cv">
+        <div class="resume_left">
+          <!-- HOME -->
+          <section class="home" id="home">
+            <div class="home_container section bd-grid">
+              <div class="home_data bd-grid">
+                <img
+                  src="assets/pictures/profil.png"
+                  alt="Icon picture"
+                  class="home_img"
+                  id="home-img"
+                />
+                <h1 class="home_title">Vartan <b>CATANASIAN</b></h1>
+                <h3 class="home_profession">Developer Fullstack</h3>
+                <div>
+                  <a download="" id="download-button" class="home_button-movil"
+                    >Download</a
+                  >
+                </div>
+              </div>
+
+              <div class="home_address bd-grid">
+                <span class="home_information">
+                  <i class="fa-solid fa-location-dot home_icon"></i> 88 rue de
+                  Haerne - Bruxelles
+                </span>
+                <span class="home_information">
+                  <a href="mailto:leagallier.lag@gmail.com" class="home_link">
+                    <i class="fa-solid fa-envelope home_icon"></i>
+                    vartancatanasian@hotmail.com
+                  </a>
+                </span>
+                <span class="home_information">
+                  <a href="tel:+33611451165" class="home_link">
+                    <i class="fa-solid fa-phone home_icon"></i>
+                    +33(0)6.23.05.34.75
+                  </a>
+                </span>
+              </div>
+            </div>
+
+            <!-- Theme change button -->
+            <i
+              class="fa-solid fa-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i
+              class="fa-solid fa-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!-- SOCIAL -->
+          <section class="social section">
+            <h2 class="section-title">Social</h2>
+
+            <div class="social_container bd-grid">
+              <a
+                href="https://github.com/vartcat"
+                target="_blank"
+                class="social_link"
+              >
+                <i class="fa-brands fa-github social_icon"></i> @vartcat
+              </a>
+              <a
+                href="https://www.instagram.com/vartcat/"
+                target="_blank"
+                class="social_link"
+              >
+                <i class="fa-brands fa-instagram social_icon"></i> @v'Art Cat
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61555749472256"
+                target="_blank"
+                class="social_link"
+              >
+                <i class="fa-brands fa-facebook social_icon"></i> Vartan
+                Catanasian
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61555749472256"
+                target="_blank"
+                class="social_link"
+              >
+                <i class="fa-brands fa-linkedin social_icon"></i> www.linkedin.com/in/vartan-catanasian
+              </a>
+            </div>
+          </section>
+
+          <!-- PROFILE -->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+
+            <p class="profile_description">
+              This summary highlights a diverse background ranging from civil
+              engineering to culinary arts, with a recent focus on becoming a
+              full-stack web developer. It showcases adaptability,
+              entrepreneurial experience, and a broad skill set acquired in
+              various roles throughout the years.
+            </p>
+          </section>
+
+          <!-- SKILLS  -->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <h3 class="skills_text">Front-end</h3>
+            <div class="skills_container">
+              <div class="skills_content bd-grid">
+                <div class="skills_name">
+                  <span class="skills_text">HTML5</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 95%"></span>
+                  </div>
+                </div>
+                <div class="skills_name">
+                  <span class="skills_text">CSS3</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 85%"></span>
+                  </div>
+                </div>
+                <div class="skills_name">
+                  <span class="skills_text">Angular</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 60%"></span>
+                  </div>
+                </div>
+                <div class="skills_name">
+                  <span class="skills_text">React.js</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 60%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 class="skills_text">Back-end</h3>
+            <div class="skills_container">
+              <div class="skills_content bd-grid">
+                <div class="skills_name">
+                  <span class="skills_text">SQL</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 70%"></span>
+                  </div>
+                </div>
+                <div class="skills_name">
+                  <span class="skills_text">PHP</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 60%"></span>
+                  </div>
+                </div>
+                <div class="skills_name">
+                  <span class="skills_text">Javascript</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 50%"></span>
+                  </div>
+                </div>
+                <div class="skills_name">
+                  <span class="skills_text">NodeJS</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 50%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 class="skills_text">Database</h3>
+            <div class="skills_container">
+              <div class="skills_content bd-grid">
+                <div class="skills_name">
+                  <span class="skills_text">Mysql</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 70%"></span>
+                  </div>
+                </div>
+                <div class="skills_name">
+                  <span class="skills_text">MongoDB</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 60%"></span>
+                  </div>
+                </div>
+                <div class="skills_name">
+                  <span class="skills_text">PostgreSQL</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 50%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 class="skills_text">Development Tools</h3>
+            <div class="skills_container">
+              <div class="skills_content bd-grid">
+                <div class="skills_name">
+                  <span class="skills_text">NPM</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 60%"></span>
+                  </div>
+                </div>
+                <div class="skills_name">
+                  <span class="skills_text">Yarn</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 40%"></span>
+                  </div>
+                </div>
+                <div class="skills_name">
+                  <span class="skills_text">Visual Studio Code</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 60%"></span>
+                  </div>
+                </div>
+                <div class="skills_name">
+                  <span class="skills_text">Wordpress</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 60%"></span>
+                  </div>
+                </div>
+                <div class="skills_name">
+                  <span class="skills_text">NicePage</span>
+                  <div class="skills_box">
+                    <span class="skills_progress" style="width: 60%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 class="skills_text">Design & Prototyping</h3>
+            <div class="skills_name">
+              <span class="skills_text">Adobe XD</span>
+              <div class="skills_box">
+                <span class="skills_progress" style="width: 80%"></span>
+              </div>
+            </div>
+            <div class="skills_name">
+              <span class="skills_text">Figma</span>
+              <div class="skills_box">
+                <span class="skills_progress" style="width: 70%"></span>
+              </div>
+            </div>
+            <h3 class="skills_text">Version Control & Collaboration</h3>
+            <div class="skills_name">
+              <span class="skills_text">Git</span>
+              <div class="skills_box">
+                <span class="skills_progress" style="width: 70%"></span>
+              </div>
+            </div>
+            <div class="skills_name">
+              <span class="skills_text">GitHub</span>
+              <div class="skills_box">
+                <span class="skills_progress" style="width: 70%"></span>
+              </div>
+            </div>
+            <div class="skills_name">
+              <span class="skills_text">Trello</span>
+              <div class="skills_box">
+                <span class="skills_progress" style="width: 70%"></span>
+              </div>
+            </div>
+            <div class="skills_name">
+              <span class="skills_text">Slack</span>
+              <div class="skills_box">
+                <span class="skills_progress" style="width: 70%"></span>
+              </div>
+            </div>
+          </section>
+
+          <!-- LANGUAGES -->
+          <section class="languages section" id="languages">
+            <h2 class="section-title">Languages</h2>
+
+            <div class="languages_container">
+              <ul class="languages_content bd-grid">
+                <li class="languages_name">
+                  <span class="languages_text">French</span>
+                  <span class="languages_stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </li>
+                <li class="languages_name">
+                  <span class="languages_text">English</span>
+                  <span class="languages_stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star languages_stars_checked"></i>
+                  </span>
+                </li>
+                <li class="languages_name">
+                  <span class="languages_text">Spainish</span>
+                  <span class="languages_stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star languages_stars_checked"></i>
+                    <i class="fa-solid fa-star languages_stars_checked"></i>
+                    <i class="fa-solid fa-star languages_stars_checked"></i>
+                  </span>
+                </li>
+                <li class="languages_name">
+                  <span class="languages_text">Armenian</span>
+                  <span class="languages_stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star languages_stars_checked"></i>
+                    <i class="fa-solid fa-star languages_stars_checked"></i>
+                    <i class="fa-solid fa-star languages_stars_checked"></i>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume_right">
+          <!-- EXPERIENCE -->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience_container bd-grid">
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span>
+                  <span class="experience_line"></span>
+                </div>
+                <div class="experience_data bd-grid">
+                  <h3 class="experience_title">
+                    Full-stack Web Developer (Remote Training)
+                  </h3>
+                  <span class="experience_company">Study</span>
+                  <span class="experience_year">October 2022 - June 2024</span>
+                  <p class="experience_description">
+                    - Design and development of websites and applications -
+                    Collaboration with design teams to ensure alignment with
+                    client needs - Optimization of performance and security.
+                  </p>
+                </div>
+              </div>
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span>
+                  <span class="experience_line"></span>
+                </div>
+                <div class="experience_data bd-grid">
+                  <h3 class="experience_title">INDEPENDENT TAXI DRIVER</h3>
+                  <span class="experience_company"
+                    >VartTTaxi - St Raphaël - France</span
+                  >
+                  <span class="experience_year"
+                    >April 2017 - September 2022</span
+                  >
+                  <p class="experience_description">
+                    Experienced in collaborating with diverse clientele, I
+                    prioritize punctuality and professionalism. Proficient in
+                    optimizing routes for time efficiency and
+                    cost-effectiveness. I offer a personalized and
+                    customer-centric approach to meet the unique needs of each
+                    passenger.
+                  </p>
+                </div>
+              </div>
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span>
+                  <span class="experience_line"></span>
+                </div>
+                <div class="experience_data bd-grid">
+                  <h3 class="experience_title">
+                    PROJECT DESIGNER - ENGINEERING OFFICE
+                  </h3>
+                  <span class="experience_company">PIRS - Vienne - France</span>
+                  <span class="experience_year"
+                    >November 2014 - January 2017</span
+                  >
+                  <p class="experience_description">
+                    As a Project Designer in an engineering office, I specialize
+                    in creating technical drawings and models for International
+                    engineering projects. Leveraging my proficiency in CAD
+                    software and close collaboration with the technical team, I
+                    ensure the precision and compliance of drawings with project
+                    standards and specifications. My role is crucial in ensuring
+                    the success and quality of engineering projects.
+                  </p>
+                </div>
+              </div>
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span>
+                  <span class="experience_line"></span>
+                </div>
+                <div class="experience_data bd-grid">
+                  <h3 class="experience_title">HEAD CHEF</h3>
+                  <span class="experience_company"
+                    >Amphytrion - Lyon - France</span
+                  >
+                  <span class="experience_year"
+                    >November 2013 - October 2014</span
+                  >
+                  <p class="experience_description">
+                    As a Head Chef, I bring extensive culinary expertise to the
+                    kitchen, overseeing the entire food preparation process.
+                    With a keen eye for detail and creativity, I design
+                    innovative menus, manage kitchen operations, and lead a team
+                    of culinary professionals. My focus on quality, flavor, and
+                    presentation ensures a memorable dining experience for
+                    patrons. Adhering to strict hygiene and safety standards, I
+                    consistently strive for culinary excellence, contributing to
+                    the success and reputation of the establishment.
+                  </p>
+                </div>
+              </div>
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span>
+                  <span class="experience_line"></span>
+                </div>
+                <div class="experience_data bd-grid">
+                  <h3 class="experience_title">WORLD TOUR</h3>
+                  <span class="experience_company"
+                    >China, Thailand, Bali, Australia, Japan, Armenia,
+                    Italy</span
+                  >
+                  <span class="experience_year">December 2010 - Mars 2012</span>
+                  <p class="experience_description">
+                    Carpenter/Joiner, Mason, Tiler, Gardener, Cook, Building
+                    Painter, Farmer, Security Guard, Fisherman, Hunter.
+                  </p>
+                </div>
+              </div>
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span>
+                  <span class="experience_line"></span>
+                </div>
+                <div class="experience_data bd-grid">
+                  <h3 class="experience_title">PIZZA CHEF</h3>
+                  <span class="experience_company"
+                    >Camping Les Pêcheurs - Roquebrune/Argens - France</span
+                  >
+                  <span class="experience_year">May 2010 - November 2010</span>
+                </div>
+              </div>
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span>
+                </div>
+                <div class="experience_data bd-grid">
+                  <h3 class="experience_title">
+                    PROJECT DESIGNER - ENGINEERING OFFICE
+                  </h3>
+                  <span class="experience_company">BETREC - Lyon - France</span>
+                  <span class="experience_year">Januay 2007 - May 2010</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- CERTIFICATES -->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+
+            <div class="certificate_container bd-grid">
+              <div class="certificate_content">
+                <div class="certificate_item">
+                  <span class="certificate_rounder"></span>
+                </div>
+                <div class="certificate_data bd-grid">
+                  <h3 class="certificate_year">2024</h3>
+                  <span class="certificate_title"
+                    >Full-stack Web and Mobile Developer Certification</span
+                  >
+                </div>
+              </div>
+              <div class="certificate_content">
+                <div class="certificate_item">
+                  <span class="certificate_rounder"></span>
+                </div>
+                <div class="certificate_data bd-grid">
+                  <h3 class="certificate_year">2017</h3>
+                  <span class="certificate_title"
+                    >Taxi Driver Certification</span
+                  >
+                </div>
+              </div>
+              <div class="certificate_content">
+                <div class="certificate_item">
+                  <span class="certificate_rounder"></span>
+                </div>
+                <div class="certificate_data bd-grid">
+                  <h3 class="certificate_year">2013</h3>
+                  <span class="certificate_title"
+                    >Professional Certificate in Culinary Arts</span
+                  >
+                </div>
+              </div>
+              <div class="certificate_content">
+                <div class="certificate_item">
+                  <span class="certificate_rounder"></span>
+                </div>
+                <div class="certificate_data bd-grid">
+                  <h3 class="certificate_year">2007</h3>
+                  <span class="certificate_title"
+                    >BTS in Civil Engineering Technology</span
+                  >
+                </div>
+              </div>
+              <div class="certificate_content">
+                <div class="certificate_item">
+                  <span class="certificate_rounder"></span>
+                </div>
+                <div class="certificate_data bd-grid">
+                  <h3 class="certificate_year">2005</h3>
+                  <span class="certificate_title"
+                    >Certificate of Training in First Aid</span
+                  >
+                </div>
+              </div>
+              <div class="certificate_content">
+                <div class="certificate_item">
+                  <span class="certificate_rounder"></span>
+                </div>
+                <div class="certificate_data bd-grid">
+                  <h3 class="certificate_year">2003</h3>
+                  <span class="certificate_title"
+                    >Youth Leader Certificate</span
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- EDUCATION -->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education_container bd-grid">
+              <div class="education_content">
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <span class="education_line"></span>
+                </div>
+                <div class="education_data bd-grid">
+                  <h3 class="education_title">
+                    Full-stack Web and Mobile Developer
+                  </h3>
+                  <span class="education_studies">STUDY</span>
+                  <span class="education_year">2022 - 2024</span>
+                </div>
+              </div>
+              <div class="education_content">
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <span class="education_line"></span>
+                </div>
+                <div class="education_data bd-grid">
+                  <h3 class="education_title">CAP in Culinary Arts.</h3>
+                  <span class="education_studies"
+                    >GRETA - Lycée Hélène Boucher - Vénissieux - France</span
+                  >
+                  <span class="education_year">2015 - 2018</span>
+                </div>
+              </div>
+              <div class="education_content">
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                </div>
+                <div class="education_data bd-grid">
+                  <h3 class="education_title">
+                    High School Diploma and BTS in Civil Engineering
+                  </h3>
+                  <span class="education_studies"
+                    >Lycée Technique Dhuoda - Antibes - France</span
+                  >
+                  <span class="education_year">2003 - 2007</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- INTERESTS -->
+          <section class="interests section" id="interests">
+            <h2 class="section-title">Interests</h2>
+            <div class="interests_container bd-grid">
+              <div class="interests_content">
+                <i class="fa-solid fa-paw interests_icon"></i>
+                <span class="interests_name">Animals</span>
+              </div>
+              <div class="interests_content">
+                <i class="fa-solid fa-palette interests_icon"></i>
+                <span class="interests_name">Contemporary Art</span>
+              </div>
+              <div class="interests_content">
+                <i class="fa-solid fa-film interests_icon"></i>
+                <span class="interests_name">Movies</span>
+              </div>
+              <div class="interests_content">
+                <i class="fa-solid fa-leaf interests_icon"></i>
+                <span class="interests_name">Nature</span>
+              </div>
+              <div class="interests_content">
+                <i class="fa-solid fa-code interests_icon"></i>
+                <span class="interests_name">Program</span>
+              </div>
+              <div class="interests_content">
+                <i class="fa-solid fa-gamepad interests_icon"></i>
+                <span class="interests_name">Video games</span>
+              </div>
+              <div class="interests_content">
+                <i class="fa-solid fa-plane interests_icon"></i>
+                <span class="interests_name">Travel</span>
+              </div>
+              <div class="interests_content">
+                <i class="fa-solid fa-medal interests_icon"></i>
+                <span class="interests_name">Boxing</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="fa-solid fa-arrow-up scrolltop_icon"></i>
+    </a>
+
+    <!-- HTML2PDF.js -->
+    <!-- Version 0.8.0 -->
+    <!-- <script src="assets/javascripts/html2pdf.v0.8.0.bundle.min.js"></script> -->
+    <!-- Version 0.9.3 -->
+    <script src="assets/javascripts/html2pdf.v0.9.3.bundle.min.js"></script>
+
+    <!-- Main Javascript file -->
+    <script src="assets/javascripts/main.js"></script>
+  </body>
+</html>
